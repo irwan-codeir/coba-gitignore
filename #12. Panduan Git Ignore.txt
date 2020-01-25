@@ -18,3 +18,8 @@ Tahapan Membuat Ignore
 	*.exe
 	5. git commit -am "keterangan"
 	6. git push catatan "untuk push yang kedua dan seterus nya tidak perlu ditambahkan -u origin master, karena origin master y sudah ditentukan"
+
+* noted
+dari github sendiri menyediakan atau merekomendasikan file mana saja yang disarankan untuk di ignore di .gitignore
+yaitu dengan mengakses https://github.com/github/gitignore
+atau langsung mengakses gitignore.io dengan cukup mengetik dikolom search os yang dipake, IDE yang dipake dan bahasa pemrograman yang dipake. dengan otomatis akan dibuat kan file .gitignore nya.
