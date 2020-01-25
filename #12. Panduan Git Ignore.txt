@@ -16,3 +16,5 @@ Tahapan Membuat Ignore
 	4. selain file di dalam git ignore juga bisa menyimpan folder atau file lainnya folder data dan format .exe
 	data/
 	*.exe
+	5. git commit -am "keterangan"
+	6. git push catatan "untuk push yang kedua dan seterus nya tidak perlu ditambahkan -u origin master, karena origin master y sudah ditentukan"
