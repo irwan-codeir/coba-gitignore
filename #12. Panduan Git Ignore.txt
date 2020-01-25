@@ -1,9 +1,18 @@
-1. buka akun github orng lain
-2. cari repo yg akan di fork
-3. clone hasil repo yg sudah di fork ke akun github kita
-4. buka git base
-5. ketik git clone paste link hasil clone y
-6. cek dgn git remote -v
-7. tambahkan remote baru dengan ketik git remote add namaRemote alamat akun yg di fork
-8. cek git remote -v
-9. ketik git fetch sandhikagalih
+Tahapan Membuat Ignore
+
+1. buat repo di github
+2. buat folder di lokal (git init)
+3. buat file index.html dan file lain misal style.css
+4. lalu git push, sebelum di push buat originnya di tahapan no. 5
+5. tentukan remote nya misal "origin", dengan copy paste git remote add origin https://github.com/irwan-codeir/coba-gitignore.git yang ada di repo github kita. untuk menghubungan lokal di git dan repo di github nya
+6. cek git status, git add . -> git commit -m "keterangan"
+7. kemudian push ke github, git push -u origin master
+8. jalankan git ignore nya
+	buat 2 file di text editor
+	contoh kasusnya misal ada 2 file script.js dan config.txt dan hanya ingin menyimpan satu file misal file script.js dan file confignya tidak disimpan. cara nya sebagai berikut
+	1. buat file .gitignore yg di dalam akan didaftarkan file-file mana saja yang tidak akan disimpan ke staging area. misal di dalam file y tulis config.txt lalu simpan.
+	2. balik ke base/cmd
+	3. ketik git add . dan git status untuk melihat file yang di add dan file yang telah di setting di .gitignore
+	4. selain file di dalam git ignore juga bisa menyimpan folder atau file lainnya folder data dan format .exe
+	data/
+	*.exe
